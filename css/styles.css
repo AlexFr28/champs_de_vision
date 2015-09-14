@@ -109,6 +109,10 @@ h1 {
   background-color: #9ACB20;
   border: 1px solid #1A9E35;
 }
+.btn-color:hover {
+  background-color: #0FAC30;
+  border: 1px solid #1A9E35;
+}
 .logo {
   font-size:40px;
   position:absolute;
