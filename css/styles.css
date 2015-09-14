@@ -99,13 +99,21 @@ header .dropdown-menu {
 
 h1 {
   font-size:50px;
+
 }
 
+.color-contact {
+  color: #9ACB20;
+}
+.btn-color {
+  background-color: #9ACB20;
+  border: 1px solid #1A9E35;
+}
 .logo {
   font-size:40px;
   position:absolute;
   z-index:1200;
-  color:#006400;
+  color:#333;
   top:70px;
   text-align:center;
   width:100%;
