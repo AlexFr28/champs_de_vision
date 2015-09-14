@@ -26,7 +26,11 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
+<<<<<<< Updated upstream
   height: 100px;
+=======
+  height: 75px;
+>>>>>>> Stashed changes
   background-color: #272b30;
 }
 
@@ -114,7 +118,7 @@ h1 {
 #nav {
   width: 100%;
   position:static;
-  top:-32px;
+  top:-41px;
 }
 
 #nav.affix {
@@ -140,6 +144,7 @@ h1 {
 	font-weight:700;
     text-transform:uppercase;
     border-width:0;
+    margin: 0;
 }
 .navbar-custom  .navbar-nav>li>a {
 	color: #ddd;
@@ -208,6 +213,7 @@ section {
 }
 
 .bg-1 {
+
 	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -239,4 +245,8 @@ section {
 .panel .img-responsive {
 	min-height:270px;
     max-height:270px;
+}
+
+.panel-thumbnail:hover {
+    background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed;
 }
