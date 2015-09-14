@@ -27,10 +27,17 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #272b30;
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    color: #5cb85c;
 }
 
 
@@ -117,10 +124,6 @@ h1 {
    top: 0;
    z-index:10;
    -webkit-transition: all .6s ease-in-out;
-}
-
-#footer > .container {
-  
 }
 
 @media (min-width: 767px) {
