@@ -252,10 +252,10 @@ h1 {
    bottom:0;
    right:6%;
    z-index:100;
-   background: #f2f3f2;
+   background: #BDBDBD;
    font-size:24px;
-   border-top-left-radius:3px;
-   border-top-right-radius:3px;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
 }
 .scroll-top a:link,.scroll-top a:visited {
   color:#222;
