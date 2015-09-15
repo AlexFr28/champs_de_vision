@@ -27,20 +27,23 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 75px;
+/*  min-height: 75px;*/
   background-color: #272b30;
-  margin-top:50px;
-  padding-top:20px;
-  padding-bottom:20px;
+    padding-top: 30px;
+  padding-bottom: 60px;
+
 }
 
-#footer p {
+.text-muted {
     text-align: center;
     font-size: 24px;
     font-family: Lato;
     color: #5cb85c;
 }
 
+.collapse-footer {
+
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -65,7 +68,10 @@ body {
 
 #footer {
   background-color:#414141;
+  height: 150px;
+    padding-bottom: 75px;
 }
+
 
 #footer a {
   color:#efefef;
