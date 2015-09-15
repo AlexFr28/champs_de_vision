@@ -55,24 +55,6 @@ body {
   z-index: 10;
 }
 
-
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-#myCarousel  .item {
-    padding-top: 20px;
-    height: 500px;
-    background-color:#fff;
-}
-#myCarousel img {
-    display: table;
-    margin: 0 auto;
-}
-
-
 #wrap > .container {
   padding: 60px 15px 0;
 }
@@ -161,16 +143,6 @@ h1 {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
-}
-
-.logo {
-  font-size:40px;
-  position:absolute;
-  z-index:1200;
-  color:#333;
-  top:70px;
-  text-align:center;
-  width:100%;
 }
 
 #nav {
@@ -307,4 +279,26 @@ section {
 
 .panel-thumbnail:hover {
     background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed;
+}
+
+.link
+{
+  background-color: #FFFFFF;
+}
+
+.links .img-circle
+{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.links
+{
+  text-align: right;
+}
+
+.logo
+{
+  display: block;
+  margin: 0 auto;
 }
